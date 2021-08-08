@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    font-weight: bold;
+    font-family: 'Yomogi', cursive;
+    font-size:xx-large;
+    color:gray;
+}
+
+body {
+    background-color: rgb(219, 87, 87); 
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    position: relative;
+    font-size: 80px;
+    margin-bottom: 40px;
+    left: 140px;
+    color:rgb(180, 169, 169);
+    width:max-content;
+    transition: color 2s; 
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+.change-theme {
+    position: absolute;
+    background-color:rgb(172, 42, 42);
+    border-radius: 999px;
+    border:none;
+    top: 120px;
+    left:500px;
+}
+
+.change-theme-back {
+    position: absolute;
+    background-color:rgb(172, 42, 42);
+    border-radius: 999px;
+    border:none;
+    text-decoration: none;
+    top: 200px;
+    left:470px;
+    height:120px;
+}
+
+p {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+#title-2 {
+    font-size:  20px;
+}
+
+#container {
+    text-align: left;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: relative;
+    overflow-y:auto;
+    overflow-x:hidden;
+
+}
+
+.head {
+    width:200px;
+    height:70px;
+    background-color:yellow;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    text-align:center;
+    position: relative;
+    
+}
+
+@media only screen and (max-width: 900px) {
+
+
+    #title {
+        font-size: 70px;
+    }
+
+    #change-background-color {
+        background-color:rgb(197, 190, 190);
+    }
+
+    #change-the-font-size {
+        font-size:x-large;
+        
+    }
+
+    .change-background-color {
+        top: -270px;
+        left: 230px;
+    }
+
+    #change-font {
+        font-family: cursive;
+    }
+
+    .change-the-font-size {
+        top: -536px;
+        left: 460px
+    }
+
+    .change-the-text-color {
+        top: -500px;
+    }
+
+    #change-the-text-color {
+        color:red;
+    }
+
+    .change-the-font-weight {
+        top: -770px;
+        left: 250px
+    }
+
+    #change-the-font-weight {
+        font-weight:lighter;
+    }
+
+    .change-the-font-style {
+        top: -1040px;
+        left: 480px;
+    }
+
+    #change-the-font-style {
+        font-style: italic;
+    }
+
+    .add-the-line-from-text {
+        top: -1020px;
+    }
+
+    #add-the-line-from-text {
+        text-decoration: underline;
+    }
+
+    .make-a-linear-gradient {
+        top: -1285px;
+        left: 240px;
+    }
+
+    #make-a-linear-gradient{
+        background: linear-gradient(45deg, red, blue);
+        
+    }
+
+    .change-x-index {
+        top: -1560px;
+        left: 480px;
+    }
+
+    #change-x-index {
+        z-index: 3;
+    }
+
+    .add-a-border {
+        top: -1530px;
+    }
+
+    #add-a-border {
+        border: 3px solid red;
+    }
+
+    .add-a-border-radius {
+        top: -1799px;
+        left: 250px;
+    }
+
+    .title {
+        position: relative;
+        left: 0;
+    }
+
+    .add-a-text-shadow {
+        top: -2059px;
+        left: 480px
+    }
+
+    #add-a-text-shadow {
+        text-shadow: 3px 3px gray;
+    }
+
+    .change-the-position {
+        top: -2059px;
+    }
+
+    .change-the-text-alignment-in-a-div {
+        top: -2330px;
+        left: 250px;
+    }
+
+    #change-the-text-alignment-in-a-div {
+        text-align: right;
+    }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1109px)  {
+    #change-background-color {
+        background-color:rgb(197, 190, 190);
+    }
+
+    .change-background-color {
+        top: -270px;
+        left: 230px;
+    }
+
+    #change-the-font-size {
+        font-size:x-large;
+        
+    }
+
+    .change-the-font-size {
+        top: -536px;
+        left: 460px
+    }
+
+    #change-font {
+        font-family: cursive;
+    }
+
+    .change-the-text-color {
+        top: -805px;
+        left: 680px;
+    }
+
+    #change-the-text-color {
+        color: red;
+    }
+
+    .change-the-font-weight {
+        top: -805px;
+    }
+
+    #change-the-font-weight {
+        font-weight:lighter;
+    }
+
+    .change-the-font-style {
+        top: -1070px;
+        left: 230px;
+    }
+
+    #change-the-font-style {
+        font-style: italic;
+    }
+
+    .add-the-line-from-text {
+        top: -1335px;
+        left: 460px;
+    }
+
+    #add-the-line-from-text {
+        text-decoration: underline;
+    }
+
+    .make-a-linear-gradient {
+        top: -1600px;
+        left: 680px;
+    }
+
+    #make-a-linear-gradient{
+        background: linear-gradient(45deg, red, blue);
+    }
+
+    .change-x-index {
+        top: -1580px;
+
+    }
+
+    #change-x-index {
+        z-index: 3;
+    }
+
+    .add-a-border {
+        top: -1860px;
+        left: 240px;
+    }
+
+    #add-a-border {
+        border: 3px solid red;
+    }
+
+    .add-a-border-radius {
+        top: -2130px;
+        left: 480px;
+    }
+
+    .add-a-text-shadow {
+        top: -2400px;
+        left: 700px
+    }
+
+    #add-a-text-shadow {
+        text-shadow: 3px 3px gray;
+    }
+
+    .change-the-position {
+        top: -2350px;
+    }
+
+    .change-the-text-alignment-in-a-div {
+        top: -2620px;
+        left: 250px;
+    }
+
+    #change-the-text-alignment-in-a-div {
+        text-align: right;
+    }
+
+    .change-theme {
+        left:600px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width:1299px) {
+    #change-background-color {
+        background-color:rgb(197, 190, 190);
+    }
+
+    .change-background-color {
+        top: -270px;
+        left: 230px;
+    }
+
+    #change-the-font-size {
+        font-size:x-large;
+        
+    }
+
+    .change-the-font-size {
+        top: -536px;
+        left: 460px
+    }
+
+    #change-font {
+        font-family: cursive;
+    }
+
+    .change-the-text-color {
+        top: -805px;
+        left: 680px;
+    }
+
+    #change-the-text-color {
+        color: red;
+    }
+
+    .change-the-font-weight {
+        top: -805px;
+    }
+
+    #change-the-font-weight {
+        font-weight:lighter;
+    }
+
+    .change-the-font-style {
+        top: -1350px;
+        left: 890px;
+    }
+
+    #change-the-font-style {
+        font-style: italic;
+    }
+
+    .add-the-line-from-text {
+        top: -1340px;
+        left: 230px;
+    }
+
+    #add-the-line-from-text {
+        text-decoration: underline;
+    }
+
+    .make-a-linear-gradient {
+        top: -1610px;
+        left: 465px;
+    }
+
+    #make-a-linear-gradient{
+        background: linear-gradient(45deg, red, blue);
+    }
+
+    .change-x-index {
+        top: -1875px;
+        left: 680px;
+    }
+
+    #change-x-index {
+        z-index: 3;
+    }
+
+    .add-a-border {
+        left: 890px;
+        top: -2150px;
+    }
+
+    #add-a-border {
+        border: 3px solid red;
+    }
+
+    .add-a-border-radius {
+        top: -2130px;
+        
+    }
+
+    .add-a-text-shadow {
+        top: -2400px;
+        left: 230px
+    }
+
+    #add-a-text-shadow {
+        text-shadow: 3px 3px gray;
+    }
+
+    .change-the-position {
+        top: -2657px;
+        left: 460px
+    }
+
+    .change-the-text-alignment-in-a-div {
+        top: -2920px;
+        left: 700px;
+    }
+
+    #change-the-text-alignment-in-a-div {
+        text-align: right;
+    }
+
+    .change-theme {
+        left:600px;
+    } 
+
+
+}
+
+@media only screen and (min-width: 1300px) {
+    #change-background-color {
+        background-color:rgb(197, 190, 190);
+    }
+
+    .change-background-color {
+        top: -270px;
+        left: 230px;
+    }
+
+    #change-the-font-size {
+        font-size:x-large;
+        
+    }
+
+    .change-the-font-size {
+        top: -536px;
+        left: 460px
+    }
+
+    #change-font {
+        font-family: cursive;
+    }
+
+    .change-the-text-color {
+        top: -805px;
+        left: 680px;
+    }
+
+    #change-the-text-color {
+        color: red;
+    }
+
+    .change-the-font-weight {
+        top: -1080px;
+        left: 1110px;
+    }
+
+    #change-the-font-weight {
+        font-weight:lighter;
+    }
+
+    .change-the-font-style {
+        top: -1350px;
+        left: 890px;
+    }
+
+    #change-the-font-style {
+        font-style: italic;
+    }
+
+    .add-the-line-from-text {
+        top: -1340px;
+    }
+
+    #add-the-line-from-text {
+        text-decoration: underline;
+    }
+
+    .make-a-linear-gradient {
+        top: -1610px;
+        left: 230px;
+    }
+
+    #make-a-linear-gradient{
+        background: linear-gradient(45deg, red, blue);
+        
+    }
+
+    .change-x-index {
+        top: -1875px;
+        left: 460px;
+    }
+
+    #change-x-index {
+        z-index: 3;
+    }
+
+    .add-a-border {
+        top: -2150px;
+        left: 680px;
+    }
+
+    #add-a-border {
+        border: 3px solid red;
+    }
+
+    .add-a-border-radius {
+        top: -2430px;
+        left: 900px;
+    }
+
+    .add-a-text-shadow {
+        top: -2700px;
+        left: 1125px
+    }
+
+    #add-a-text-shadow {
+        text-shadow: 3px 3px gray;
+    }
+
+    .change-the-position {
+        top: -2690px;
+    }
+
+    .change-the-text-alignment-in-a-div {
+        top: -2950px;
+        left: 240px;
+    }
+
+    #change-the-text-alignment-in-a-div {
+        text-align: right;
+    }
+
+    .change-theme {
+        left:600px;
+    }
+
+ }
+
+::-webkit-scrollbar {
+    background-color:rgb(74, 187, 98);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:rgb(71, 167, 8);
+}
+
+
+
