@@ -220,6 +220,11 @@ a {
         text-align: right;
     }
 
+    .change-the-background-of-the-scrollbar {
+        left: 500px;
+        top: -2580px;
+    }
+
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1109px)  {
@@ -337,6 +342,11 @@ a {
 
     .change-theme {
         left:600px;
+    }
+
+    .change-the-background-of-the-scrollbar {
+        left: 500px;
+        top: -2859px;
     }
 }
 
@@ -459,6 +469,8 @@ a {
     } 
 
 
+
+
 }
 
 @media only screen and (min-width: 1300px) {
@@ -579,15 +591,17 @@ a {
         left:600px;
     }
 
+    .change-the-background-of-the-scrollbar {
+        left: 500px;
+        top: -3200px;
+    }
+
  }
 
-::-webkit-scrollbar {
+ ::-webkit-scrollbar {
     background-color:rgb(74, 187, 98);
 }
 
 ::-webkit-scrollbar-thumb {
     background-color:rgb(71, 167, 8);
 }
-
-
-
