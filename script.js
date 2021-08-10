@@ -77,7 +77,7 @@ $("#change-background-color").on("click",
     $("#change-the-text-alignment-in-a-div").html("text-align: right;");
  });
 
-
-
-
- 
+ $("#change-the-background-of-the-scrollbar").on("click",
+ function() {
+    $("#change-the-background-of-the-scrollbar").html(' ::-webkit-scrollbar {}');
+ });
